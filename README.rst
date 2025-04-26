@@ -75,7 +75,7 @@ This is an overview of the main figures in the paper, which are reproducible usi
    .. raw:: html
 
       <div style="display: flex; justify-content: space-between;">
-          <img src="Plots/Escape_fractions_V2.png" width="345%" />
+          <img src="Plots/Escape_fractions_V2.png" width="45%" />
       </div>
 
    .. raw:: html
@@ -88,7 +88,7 @@ This is an overview of the main figures in the paper, which are reproducible usi
    .. raw:: html
 
       <div style="display: flex; justify-content: space-between;">
-          <img src="Plots/fescSimu.png" width="45%" />
+          <img src="Plots/fescSimu.png" width="55%" />
       </div>
 
 6. Stacks
