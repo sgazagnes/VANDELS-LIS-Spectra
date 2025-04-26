@@ -12,25 +12,27 @@ Summary
 We compare mock ultraviolet C II and Si II line spectra from a high-resolution radiation-hydrodynamical (RHD) simulation to observations of 131 galaxies from the VANDELS survey at z ~ 3.
 
 Key results:
-- The mock spectra successfully reproduce 83% of the observed VANDELS spectra.
-- Best-matching spectra originate from phases of intense star formation in the virtual galaxy.
-- Predicted Lyman continuum (LyC) escape fractions (f_esc) are low on average (0.01 ± 0.02), consistent with previous constraints.
-- LyC leakage is tightly linked to UV-bright, compact, dust-free, and low-neutral-gas regions.
-- The study validates the use of Si II and C II line spectra as indirect tracers of LyC leakage.
+- `The mock spectra successfully reproduce 83% of the observed VANDELS spectra.`
+- `Best-matching spectra originate from phases of intense star formation in the virtual galaxy.`
+- `Predicted Lyman continuum (LyC) escape fractions (f_esc) are low on average (0.01 ± 0.02), consistent with previous constraints.`
+- `LyC leakage is tightly linked to UV-bright, compact, dust-free, and low-neutral-gas regions.`
+- `The study validates the use of Si II and C II line spectra as indirect tracers of LyC leakage.`
 
+Reproducing the results requires the simulation data which is not public but can be shared upon reasonable request.
 
 Contents
 --------
 
-- `Animation/` — Files to create the animated figures
-- `ClassySpectra/` — Observational data from the CLASSY survey
+- `Data/` — Observational data from the VANDELS survey
 - `Measurements/` —  The csv files containing the relevant data measurements.
 - `Paper/` — Contains the article pdf
 - `Notebooks/` — Jupyter notebooks for making the analysis and producing the paper figures
 - `Plots/` — Figures from the paper (see examples below)
 
-Result figures:
----------------
+
+
+Figures overview:
+-----------------
 
 This is an overview of the main figures in the paper, which are reproducible using the python notebooks. The paper provides the details and context for the interested reader. 
 
@@ -73,15 +75,20 @@ This is an overview of the main figures in the paper, which are reproducible usi
    .. raw:: html
 
       <div style="display: flex; justify-content: space-between;">
-          <img src="Plots/Escape_fractions_V2.png" width="35%" />
-          <img src="Plots/LyaLyc_V2.png" width="35%" />
+          <img src="Plots/Escape_fractions_V2.png" width="345%" />
+      </div>
+
+   .. raw:: html
+
+      <div style="display: flex; justify-content: space-between;">
+          <img src="Plots/LyaLyc_V2.png" width="45%" />
       </div>
 
 
    .. raw:: html
 
       <div style="display: flex; justify-content: space-between;">
-          <img src="Plots/fescSimu.png" width="35%" />
+          <img src="Plots/fescSimu.png" width="45%" />
       </div>
 
 6. Stacks
